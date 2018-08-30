@@ -1,0 +1,40 @@
+{
+  "name": "vue-tour-easy",
+  "version": "0.0.1",
+  "description": "Easy tour Vue.js 2 component",
+  "keywords": [
+    "guide",
+    "guidence",
+    "wizard",
+    "vue",
+    "vue.js",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cweili/vue-tour-easy.git"
+  },
+  "author": "Cweili",
+  "license": "MIT",
+  "homepage": "https://github.com/Cweili/vue-tour-easy#readme",
+  "bugs": {
+    "url": "https://github.com/Cweili/vue-tour-easy/issues"
+  },
+  "main": "dist/vue-tour-easy.js",
+  "module": "dist/vue-tour-easy.esm.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nib": "^1.1.2",
+    "rollup": "^0.55.3",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-svgo": "^1.0.1",
+    "rollup-plugin-vue": "^3.0.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "dependencies": {}
+}
