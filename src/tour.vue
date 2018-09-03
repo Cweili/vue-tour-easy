@@ -65,6 +65,7 @@ export default {
       const stepIndex = this.step;
       const step = this.steps[stepIndex];
       if (step) {
+        ++this.step;
         this.$emit('step', step, stepIndex);
         const el = document.querySelector(step.el);
         if (el) {
@@ -84,7 +85,6 @@ export default {
         } else {
           this.go();
         }
-        ++this.step;
       } else {
         this.$emit('end');
         this.quit();
