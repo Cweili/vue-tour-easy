@@ -55,14 +55,14 @@ export default {
     value(show) {
       if (show) {
         this.step = 0;
-        this.go(0);
+        this.go();
       }
     }
   },
 
   methods: {
     go() {
-      const stepIndex = this.step++;
+      const stepIndex = this.step;
       const step = this.steps[stepIndex];
       if (step) {
         this.$emit('step', step, stepIndex);
@@ -84,6 +84,7 @@ export default {
         } else {
           this.go();
         }
+        ++this.step;
       } else {
         this.$emit('end');
         this.quit();
