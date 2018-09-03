@@ -63,6 +63,7 @@ var tour = { render: function render() {
       var stepIndex = this.step;
       var step = this.steps[stepIndex];
       if (step) {
+        ++this.step;
         this.$emit('step', step, stepIndex);
         var el = document.querySelector(step.el);
         if (el) {
@@ -82,7 +83,6 @@ var tour = { render: function render() {
         } else {
           this.go();
         }
-        ++this.step;
       } else {
         this.$emit('end');
         this.quit();
