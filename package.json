@@ -1,8 +1,9 @@
 {
   "name": "vue-tour-easy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easy tour Vue.js 2 component",
   "keywords": [
+    "tour",
     "guide",
     "guidence",
     "wizard",

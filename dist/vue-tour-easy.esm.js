@@ -47,14 +47,14 @@ var tour = { render: function render() {
     value: function value(show) {
       if (show) {
         this.step = 0;
-        this.go(0);
+        this.go();
       }
     }
   },
 
   methods: {
     go: function go() {
-      var stepIndex = this.step++;
+      var stepIndex = this.step;
       var step = this.steps[stepIndex];
       if (step) {
         this.$emit('step', step, stepIndex);
@@ -76,6 +76,7 @@ var tour = { render: function render() {
         } else {
           this.go();
         }
+        ++this.step;
       } else {
         this.$emit('end');
         this.quit();
