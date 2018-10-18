@@ -1,5 +1,7 @@
 # vue-tour-easy
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Cweili/vue-tour-easy.svg)](https://greenkeeper.io/)
+
 [![npm][npm-version]][npm]
 [![npm][npm-size]][npm]
 [![npm][npm-downloads]][npm]
