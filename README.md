@@ -1,12 +1,12 @@
 # vue-tour-easy
 
-[![npm][npm-version]][npm]
-[![npm][npm-size]][npm]
-[![npm][npm-downloads]][npm]
-[![npm][npm-license]][npm]
+[![npm][badge-version]][npm]
+[![bundle size][badge-size]][bundlephobia]
+[![npm downloads][badge-downloads]][npm]
+[![license][badge-license]][license]
 
 
-[![github][github-issues]][github]
+[![github][badge-issues]][github]
 
 
 Easy tour [Vue.js 2][vuejs] component.
@@ -91,22 +91,25 @@ npm install vue-tour-easy --save
 * `end`: When the end of the tour
 * `cancel`: When the tour is cancelled
 
-[npm]: https://www.npmjs.com/package/vue-tour-easy
-[npm-version]: https://img.shields.io/npm/v/vue-tour-easy.svg
-[npm-size]: https://img.shields.io/bundlephobia/minzip/vue-tour-easy.svg
-[npm-downloads]: https://img.shields.io/npm/dt/vue-tour-easy.svg
-[npm-license]: https://img.shields.io/npm/l/vue-tour-easy.svg
-
-[github]: https://github.com/Cweili/vue-tour-easy
-[github-issues]: https://img.shields.io/github/issues/Cweili/vue-tour-easy.svg
-
-[travis]: https://travis-ci.org/Cweili/vue-tour-easy
-[travis-build]: https://img.shields.io/travis/Cweili/vue-tour-easy.svg
-
-[codecov]: https://codecov.io/gh/Cweili/vue-tour-easy
-[codecov-svg]: https://img.shields.io/codecov/c/github/Cweili/vue-tour-easy.svg
-
-
 [vuejs]: https://vuejs.org/
 
 [doc]: https://cweili.github.io/vue-tour-easy/
+
+[badge-version]: https://img.shields.io/npm/v/vue-tour-easy.svg
+[badge-downloads]: https://img.shields.io/npm/dt/vue-tour-easy.svg
+[npm]: https://www.npmjs.com/package/vue-tour-easy
+
+[badge-size]: https://img.shields.io/bundlephobia/minzip/vue-tour-easy.svg
+[bundlephobia]: https://bundlephobia.com/result?p=vue-tour-easy
+
+[badge-license]: https://img.shields.io/npm/l/vue-tour-easy.svg
+[license]: https://github.com/Cweili/vue-tour-easy/blob/master/LICENSE
+
+[badge-issues]: https://img.shields.io/github/issues/Cweili/vue-tour-easy.svg
+[github]: https://github.com/Cweili/vue-tour-easy
+
+[badge-build]: https://travis-ci.org/Cweili/vue-tour-easy.svg?branch=master
+[travis]: https://travis-ci.org/Cweili/vue-tour-easy
+
+[badge-coverage]: https://img.shields.io/codecov/c/github/Cweili/vue-tour-easy.svg
+[codecov]: https://codecov.io/gh/Cweili/vue-tour-easy
